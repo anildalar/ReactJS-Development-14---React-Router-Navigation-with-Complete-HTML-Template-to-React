@@ -1,0 +1,71 @@
+
+
+Components
+2 Types of componenent
+
+1. Functional Compoent
+2. Class Compoent
+
+Every component can have its own data
+
+This data can come from
+1. From Outside compoent
+2. Within component
+
+Login System
+	Functinal Compoent
+			Own Data
+			within component
+
+
+Pages
+	1. Home
+	2. Login
+				admin
+				enduser
+				account_manager
+				reseller
+
+	3. Register
+	4. AdminDashboard,
+	5. EndUserDashboard
+	6. AccountManagerDashboard3
+	7. ResellerDashboard
+
+
+API = Application Programming Interface
+
+http://65.109.113.62:3000/api/auth/login
+
+PostMan is an api testing tool
+
+POST > BODY > RAW -> JSON
+
+JS Object
+{
+	//1. P:V
+	//2. Methods
+}
+
+admin payload
+{
+    "email":"admin@gmail.com",
+    "password":"admin"
+}
+
+reseller payload
+{
+    "email":"reseller@gmail.com",
+    "password":"reseller"
+}
+
+account_manager payload
+{
+    "email":"account_manager@gmail.com",
+    "password":"account_manager"
+}
+enduser payload
+{
+    "email":"enduser@gmail.com",
+    "password":"enduser"
+}
